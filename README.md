@@ -1,6 +1,6 @@
-# Stone: Astro Theme
+# Whisper Nature
 
-Stone is a free and open-source Astro theme specially designed for Business, Marketing, SaaS and Startup websites.
+Whisper Nature la oprtunidad de hablar con tu planta :D
 
 ## Key Features:
 
@@ -16,7 +16,6 @@ Stone is a free and open-source Astro theme specially designed for Business, Mar
 - **Prettier** Code Formatter
 - **Google Fonts**
 - **Remix Icons**
-- Free Updates
 
 ## Getting Started
 
@@ -83,14 +82,9 @@ Inside the project, you'll see the following folders and files:
 - `tailwind.config.cjs` - Tailwind configuration file. The theme section is where you define your color palette and fonts.
 - `tsconfig.json` - TypeScript configuration file.
 
-## Deployment
-
-Ready to build and deploy your site? Follow the [official documentation](https://docs.astro.build/en/guides/deploy/).
-
-## Support
-
-If you have any questions or suggestions do not hesitate to contact me.
-
-## License
-
-This project is licensed under the terms of the MIT license.
+## TEAM
+# - Manchego Garate, Byron Milthon
+# - Moreno Villegas, Royer
+# - Manzano Añamuro, Jorge Manuel
+# - Huacac Centeno, Jaime Rodrigo
+# - Quispe Velasquez, Carlos Augusto
