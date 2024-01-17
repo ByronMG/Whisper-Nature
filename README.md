@@ -83,8 +83,8 @@ Inside the project, you'll see the following folders and files:
 - `tsconfig.json` - TypeScript configuration file.
 
 ## TEAM
-# - Manchego Garate, Byron Milthon
-# - Moreno Villegas, Royer
-# - Manzano Añamuro, Jorge Manuel
-# - Huacac Centeno, Jaime Rodrigo
-# - Quispe Velasquez, Carlos Augusto
+- Manchego Garate, Byron Milthon
+- Moreno Villegas, Royer
+- Manzano Añamuro, Jorge Manuel
+- Huacac Centeno, Jaime Rodrigo
+- Quispe Velasquez, Carlos Augusto
