@@ -5,14 +5,12 @@ Whisper Nature la oprtunidad de hablar con tu planta :D
 ## Key Features:
 
 - **Built with Tailwind CSS & Alpine.js**
-- **5+ Pages**
-- **15+ Sections**
 - Clean & Modern Design
 - Fully Responsive
 - Dark & Light Mode
 - Fast & Performant
 - Super Lightweight
-- View Transitions (experimental)
+- View Transitions
 - **Prettier** Code Formatter
 - **Google Fonts**
 - **Remix Icons**
