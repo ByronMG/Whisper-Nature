@@ -2,6 +2,13 @@
 
 Whisper Nature la oprtunidad de hablar con tu planta :D
 
+## TEAM
+- Manchego Garate, Byron Milthon
+- Moreno Villegas, Royer
+- Manzano Añamuro, Jorge Manuel
+- Huacac Centeno, Jaime Rodrigo
+- Quispe Velasquez, Carlos Augusto
+
 ## Key Features:
 
 - **Built with Tailwind CSS & Alpine.js**
@@ -79,10 +86,3 @@ Inside the project, you'll see the following folders and files:
 - `package.json` - File used by JavaScript package managers to manage your dependencies. It also defines the scripts that are commonly used to run Astro.
 - `tailwind.config.cjs` - Tailwind configuration file. The theme section is where you define your color palette and fonts.
 - `tsconfig.json` - TypeScript configuration file.
-
-## TEAM
-- Manchego Garate, Byron Milthon
-- Moreno Villegas, Royer
-- Manzano Añamuro, Jorge Manuel
-- Huacac Centeno, Jaime Rodrigo
-- Quispe Velasquez, Carlos Augusto
