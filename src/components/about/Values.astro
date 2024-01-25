@@ -3,29 +3,41 @@ const values = [
   [
     {
       ref: '01',
-      name: 'Excellence',
+      name: 'Conexión Sostenible',
       description:
-        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+        'Nos comprometemos a desarrollar tecnologías que no solo mejoren la vida de las personas, sino que también minimicen nuestro impacto en el medio ambiente. Buscamos soluciones que promuevan la sostenibilidad y la armonía con la naturaleza.',
     },
     {
       ref: '02',
-      name: 'Innovation',
+      name: 'Innovación Respetuosa',
       description:
-        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+        'Valoramos la innovación responsable. Buscamos constantemente maneras creativas de mejorar nuestras soluciones, manteniendo un profundo respeto por la naturaleza y la diversidad biológica.',
+    },
+    {
+      ref: '03',
+      name: 'Accesibilidad Verde',
+      description:
+        'Creemos que la conexión con la naturaleza debería ser accesible para todos. Trabajamos para hacer que la jardinería y la tecnología verde sean inclusivas, proporcionando herramientas intuitivas y recursos para personas de todos los niveles de experiencia.',
     },
   ],
   [
     {
-      ref: '03',
-      name: 'Teamwork',
+      ref: '04',
+      name: 'Transparencia y Privacidad',
       description:
-        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+        'La transparencia y la privacidad son pilares clave de nuestra relación con los usuarios. Nos comprometemos a ser transparentes en nuestras prácticas y a proteger la privacidad de los datos de nuestros usuarios en todo momento.',
     },
     {
-      ref: '04',
-      name: 'Respect',
+      ref: '05',
+      name: 'Compromiso Educativo',
       description:
-        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+        'Abogamos por el aprendizaje continuo sobre el cuidado de las plantas y la importancia de vivir de manera sostenible. Buscamos inspirar a nuestros usuarios a través de contenido educativo que fomente un mayor conocimiento y aprecio por la naturaleza.',
+    },
+    {
+      ref: '06',
+      name: 'Diversidad y Respeto',
+      description:
+        'Valoramos la diversidad en todas sus formas. Respetamos y celebramos las diferencias de perspectivas, culturas y experiencias, reconociendo que la verdadera fuerza radica en nuestra pluralidad.',
     },
   ],
 ];
@@ -34,14 +46,14 @@ const values = [
 <section class="py-16 sm:py-20">
   <div class="mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl lg:px-8">
     <div class="flex flex-col gap-8 lg:gap-12">
-      <h2 class="text-3xl font-medium tracking-tight sm:text-4xl">Our Values</h2>
+      <h2 class="text-3xl font-medium tracking-tight sm:text-4xl">Nuestros valores</h2>
       <div class="grid gap-8 lg:grid-cols-2">
         {
           values.map((column, index) => (
             <div class:list={['space-y-8', index === 1 && 'lg:mt-16']}>
               {column.map((value) => (
                 <div class="bg-primary-500/10 dark:bg-primary-400/10 flex flex-col gap-12 rounded-3xl px-6 py-8">
-                  <p class="text-sm">{value.ref}</p>
+                  <p class="text-xl">{value.ref}</p>
                   <div class="flex flex-col gap-4">
                     <h3 class="text-xl font-medium">{value.name}</h3>
                     <p class="text-primary-950/70 dark:text-primary-200/70 text-base sm:text-lg">
